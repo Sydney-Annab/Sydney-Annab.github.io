@@ -9,6 +9,6 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: var(--color-accent);
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/world-map-blueprint-bekim-art.jpg);
     background-size: cover;
 }
