@@ -9,6 +9,6 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url(https://geology.com/world/world-map.gif);
+    background: var(--color-primary);
     background-size: cover;
 }
