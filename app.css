@@ -12,3 +12,13 @@ body {
     background: url(https://media.istockphoto.com/id/166078600/vector/architecture.jpg?s=612x612&w=0&k=20&c=avxdCJmca9dbuogtCKra2IjrxWCv_ha8ZVsvbqT0G3k=);
     background-size: cover;
 }
+
+.container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: var(--border-radius);
+    background: var(--color-accent);
+}
