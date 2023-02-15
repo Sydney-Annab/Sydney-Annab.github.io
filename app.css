@@ -1,6 +1,6 @@
 body {
     --color-primary: #FAF9F6;
-    --color-accent: #D4B996FF;
+    --color-accent: rgb(150, 212, 150);
     --border-radius: 4px;
 
     margin:0;
