@@ -22,6 +22,7 @@ body {
     border-radius: var(--border-radius);
     background: var(--color-accent);
     font-family: 'Alata', sans-serif;
+    justify-content: center;
 }
 
 .form_title {
