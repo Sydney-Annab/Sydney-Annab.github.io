@@ -21,9 +21,6 @@ body {
     box-shadow: 0 0 40px rgba(0,0,0,0.2);
     border-radius: var(--border-radius);
     background: var(--color-accent);
-}
-
-.container, .form_input, .form_button {
     font-family: 'Alata', sans-serif;
 }
 
