@@ -22,3 +22,7 @@ body {
     border-radius: var(--border-radius);
     background: var(--color-accent);
 }
+
+.container, .form_input, .form_button {
+    font: font-family: 'Alata', sans-serif;
+}
