@@ -26,3 +26,8 @@ body {
 .container, .form_input, .form_button {
     font-family: 'Alata', sans-serif;
 }
+
+.form_title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
