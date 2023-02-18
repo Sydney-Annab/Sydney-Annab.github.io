@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector("linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
-        login_form.classList.add("form-hidden");
+        login_form.classList.add("form_hidden");
         create_account_form.classList.remove("form_hidden");
     });
 
     document.querySelector("linkLogin").addEventListener("click", e => {
         e.preventDefault();
-        create_account_form.classList.add("form-hidden");
+        create_account_form.classList.add("form_hidden");
         login_form.classList.remove("form_hidden");
     });
