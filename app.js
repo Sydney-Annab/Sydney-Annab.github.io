@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         create_account_form.classList.remove("form_hidden");
     });
 
-    document.querySelector("linkCreateAccount").addEventListener("click", e => {
+    document.querySelector("linkLogin").addEventListener("click", e => {
         e.preventDefault();
         create_account_form.classList.add("form-hidden");
         login_form.classList.remove("form_hidden");
