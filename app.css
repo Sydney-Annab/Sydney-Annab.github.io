@@ -25,6 +25,10 @@ body {
     justify-content: center;
 }
 
+.form_hidden {
+    display: none;
+}
+
 .form_title {
     margin-bottom: 2rem;
     text-align: center;
