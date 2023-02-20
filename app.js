@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const LoginForm = document.querySelector("#login_form");
-    const CreateAccountForm = document.querySelector("#create_account_form");
+    const loginForm = document.querySelector("#login");
+    const createAccountForm = document.querySelector("#createAccount");
 
-    document.querySelector("linkCreateAccount").addEventListener("click", e => {
+    document.querySelector("#linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
-        LoginForm.classList.add("form_hidden");
-        CreateAccountForm.classList.remove("form_hidden");
+        loginForm.classList.add("form--hidden");
+        createAccountForm.classList.remove("form--hidden");
     });
 
-    document.querySelector("linkLogin").addEventListener("click", e => {
+    document.querySelector("#linkLogin").addEventListener("click", e => {
         e.preventDefault();
-        CreateAccountForm.classList.add("form_hidden");
-        LoginForm.classList.remove("form_hidden");
+        loginForm.classList.remove("form--hidden");
+        createAccountForm.classList.add("form--hidden");
     });
 });
