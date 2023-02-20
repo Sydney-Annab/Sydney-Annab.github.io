@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector("#linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
-        loginForm.classList.add("form--hidden");
-        createAccountForm.classList.remove("form--hidden");
+        loginForm.classList.add("form_hidden");
+        createAccountForm.classList.remove("form_hidden");
     });
 
     document.querySelector("#linkLogin").addEventListener("click", e => {
         e.preventDefault();
-        loginForm.classList.remove("form--hidden");
-        createAccountForm.classList.add("form--hidden");
+        loginForm.classList.remove("form_hidden");
+        createAccountForm.classList.add("form_hidden");
     });
 });
