@@ -13,3 +13,4 @@ document.addEventListener("DOMContentLoaded", () => {
         create_account_form.classList.add("form_hidden");
         login_form.classList.remove("form_hidden");
     });
+});
