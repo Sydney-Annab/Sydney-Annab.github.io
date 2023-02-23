@@ -6,7 +6,7 @@
         <div class="container">
             <form class="form">
                 <label for="common">Select a Category: </label>
-                <select id="common" name="common" onchange=changeDropdownValue()>
+                <select id="common" name="common" onchange=changeDropdownValue(this.value)>
                     <option value"" disabled selected>Select</option>
                     <option value="Structural">Structural</option>
                     <option value="Enclosure">Enclosure</option>
