@@ -4,7 +4,7 @@ var commonValues ={
 }
 
 function changeDropdownValue(){
-    if(commonValues.length == 0){
+    if(value.length == 0){
         document.getElementById("category").innerHTML = "<option></option>"
     }else{
         var commonOptions = "";
