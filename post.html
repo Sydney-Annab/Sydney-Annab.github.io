@@ -5,17 +5,20 @@
     <body>
         <div class="container">
             <form class="form">
-                <input id="post_title" type="text" class="form_input" placeholder="Title">
-                <label for="cars">Material:</label>
-                <select id="cars" name="cars">
-                    <option value="concrete">Concrete</option>
-                    <option value="steel">Steel</option>
-                    <option value="wood">Wood</option>
-                    <option value="masonry">Masonry</option>
-                    <option value="stone">Stone</option>
-                    <option value="other">Other</option>
+                <label for="common">Select a Category: </label>
+                <select id="common" name="common" onchange=changeDropdownValue()>
+                    <option value"" disabled selected>Select</option>
+                    <option value="Structural">Structural</option>
+                    <option value="Enclosure">Enclosure</option>
                 </select>
-
+                <br>
+                <br>
+                <label for="category">Select a Subcategory: </label>
+                <select id="category" name="category">
+                    <option value"" disabled selected>Select</option>
+                </select>
             </form>
+
+            <script src="dropdown.js"></script>
         </div>
     </body>
