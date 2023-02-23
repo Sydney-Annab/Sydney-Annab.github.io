@@ -9,7 +9,7 @@ function changeDropdownValue(value){
     }else{
         var commonOptions = "";
         for(categoryID in commonValues[value]){
-            commonOptions +="<option>" + commonValues[value][categoryID] + "/option"
+            commonOptions +="<option>" + commonValues[value][categoryID] + "</option>"
         }
         document.getElementById("category").innerHTML = commonOptions
     }
