@@ -11,6 +11,6 @@ function changeDropdownValue(value){
         for(categoryID in commonValues[value]){
             commonOptions +=" option " + commonValues[value][categoryID] + "/option"
         }
-        document.getElementById("category").innerHTML = commonOptions
+        document.getElementById("categoryID").innerHTML = commonOptions
     }
 }
