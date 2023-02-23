@@ -1,6 +1,6 @@
 var commonValues ={
-    Structural : ["Beams","Columns"],
-    Enclosure :["Interior Wall Finishings","Exterior Wall Finishings"]
+    "Structural" : ["Beams","Columns"],
+    "Enclosure" :["Interior Wall Finishings","Exterior Wall Finishings"]
 }
 
 function changeDropdownValue(value){
