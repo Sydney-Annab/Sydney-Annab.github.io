@@ -7,7 +7,7 @@ var commonValues ={
     Plumbing: ["Pipes & Fittings","Valves","Pumps","Stops, Drains, & Drain Plugs","Water Heaters"],
     DoorsandWindows: ["Doors","Windows"],
     Appliances: ["Refrigerators","Dishwashers","Ovens & Stovetops","Laundry Machines","Small Appliances"],
-    InteriorandFinishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"];
+    InteriorandFinishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"],
     RawMaterial: ["Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
 }
 
