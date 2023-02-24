@@ -3,25 +3,28 @@
       <link rel="stylesheet" href="./app.css">
     </head>
     <body>
-        <label for="common">Select a Category:</label>
-        <select id="common" name="common" onchange=changeDropdownValue(this.value)>
-            <option value"" disabled selected>Select</option>
-            <option value="Structural">Structural</option>
-            <option value="Enclosure">Enclosure</option>
-            <option value="HVAC">HVAC</option>
-            <option value="Electrical">Electrical</option>
-            <option value="Technology">Technology</option>
-            <option value="Plumbing">Plumbing</option>
-            <option value="DoorsandWindows">Doors & Windows</option>
-            <option value="Appliances">Appliances</option>
-            <option value="InteriorandFinishing">Interior & Finishing</option>
-            <option value="RawMaterial">Raw Material</option>
-        </select>
-        <br>
-        <br>
-        <label for="category">Select a Subcategory:</label>
-        <select id="category" name="category">
-            <option value"" disabled selected>Select</option>
-        </select>
+        <form class="container">
+            <h1 class="form_title" >Posting Form</h1>
+            <label for="common">Select a Category:</label>
+            <select id="common" name="common" onchange=changeDropdownValue(this.value)>
+                <option value"" disabled selected>Select</option>
+                <option value="Structural">Structural</option>
+                <option value="Enclosure">Enclosure</option>
+                <option value="HVAC">HVAC</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Technology">Technology</option>
+                <option value="Plumbing">Plumbing</option>
+                <option value="DoorsandWindows">Doors & Windows</option>
+                <option value="Appliances">Appliances</option>
+                <option value="InteriorandFinishing">Interior & Finishing</option>
+                <option value="RawMaterial">Raw Material</option>
+            </select>
+            <br>
+            <br>
+            <label for="category">Select a Subcategory:</label>
+            <select id="category" name="category">
+                <option value"" disabled selected>Select</option>
+            </select>
+        </form>
         <script src="dropdown.js"></script>
     </body>
