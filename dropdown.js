@@ -5,9 +5,9 @@ var commonValues ={
     Electrical: ["Wiring","Conduit, Switches, & Outlets","Generators","Light Bulbs & Fixtures","Boxes"],
     Technology: ["Solar","Security & Surveillance"]
     Plumbing: ["Pipes & Fittings","Valves","Pumps","Stops, Drains, & Drain Plugs","Water Heaters"],
-    Doors&Windows: ["Doors","Windows"],
+    DoorsandWindows: ["Doors","Windows"],
     Appliances: ["Refrigerators","Dishwashers","Ovens & Stovetops","Laundry Machines","Small Appliances"],
-    Interior&Finishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"];
+    InteriorandFinishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"];
     RawMaterial: ["Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
 }
 
