@@ -41,5 +41,4 @@ body {
     font-size: 1.1rem;
     border: none;
     border-radius: var(--border-radius)
-    background: var(--color-accent);
 }
