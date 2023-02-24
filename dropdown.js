@@ -11,12 +11,8 @@ var commonValues ={
     RawMaterial: ["Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
 }
 
-if(commonValues == "Structural"){
-    var length = 5;
-}
-
 function changeDropdownValue(value){
-    if(value.length == length){
+    if(value.length == 0){
         document.getElementById("category").innerHTML = "<option></option>"
     }else{
         var commonOptions = "";
