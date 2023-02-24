@@ -8,7 +8,7 @@ var commonValues ={
     Doors & Windows: ["Doors","Windows"],
     Appliances: ["Refrigerators","Dishwashers","Ovens & Stovetops","Laundry Machines","Small Appliances"],
     Interior and Finishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"];
-    Raw Material: [:"Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
+    Raw Material: ["Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
 }
 
 function changeDropdownValue(value){
