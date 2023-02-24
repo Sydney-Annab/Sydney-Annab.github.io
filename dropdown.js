@@ -1,6 +1,14 @@
 var commonValues ={
-    Structural: ["Beams","Columns"],
-    Enclosure: ["Interior Wall Finishings","Exterior Wall Finishings"]
+    Structural: ["Beams","Columns","Wall Framing","Roof Framing", "Floor Framing"],
+    Enclosure: ["Interior Wall Finishings","Exterior Wall Finishings","Insulation","Drywall","Air/Water/Vapour Barriers","Sheathing"],
+    HVAC: ["Ducting & Venting","Registers & Grilles","HVAC Accessories","Pipe Fittings & Connectors","Units"],
+    Electrical: ["Wiring","Conduit, Switches, & Outlets","Generators","Light Bulbs & Fixtures","Boxes"],
+    Technology: ["Solar","Security & Surveillance"]
+    Plumbing: ["Pipes & Fittings","Valves","Pumps","Stops, Drains, & Drain Plugs","Water Heaters"],
+    Doors & Windows: ["Doors","Windows"],
+    Appliances: ["Refrigerators","Dishwashers","Ovens & Stovetops","Laundry Machines","Small Appliances"],
+    Interior and Finishing: ["Paints","Trim","Flooring","Cabinetry","Countertops"];
+    Raw Material: [:"Concrete","Steel","Wood & Bamboo","Glass","Stone & Brick","Earth"]
 }
 
 function changeDropdownValue(value){
