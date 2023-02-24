@@ -3,7 +3,7 @@ var commonValues ={
     Enclosure: ["Interior Wall Finishings","Exterior Wall Finishings","Insulation","Drywall","Air/Water/Vapour Barriers","Sheathing"],
     HVAC: ["Ducting & Venting","Registers & Grilles","HVAC Accessories","Pipe Fittings & Connectors","Units"],
     Electrical: ["Wiring","Conduit, Switches, & Outlets","Generators","Light Bulbs & Fixtures","Boxes"],
-    Technology: ["Solar","Security & Surveillance"]
+    Technology: ["Solar","Security & Surveillance"],
     Plumbing: ["Pipes & Fittings","Valves","Pumps","Stops, Drains, & Drain Plugs","Water Heaters"],
     DoorsandWindows: ["Doors","Windows"],
     Appliances: ["Refrigerators","Dishwashers","Ovens & Stovetops","Laundry Machines","Small Appliances"],
