@@ -16,7 +16,7 @@ if(commonValues == "Structural"){
 }
 
 function changeDropdownValue(value){
-    if(value.length != 0){
+    if(value.length == length){
         document.getElementById("category").innerHTML = "<option></option>"
     }else{
         var commonOptions = "";
