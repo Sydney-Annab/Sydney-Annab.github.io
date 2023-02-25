@@ -6,6 +6,10 @@
         <form class="container">
             <h1 class="form_title" >Posting Form</h1>
             <label for="common">Select a Category:</label>
+            <input id="PostTitle" type="text" class="form_input" placeholder="Post Title">
+            <textarea id="PostDescription" name="freeform" rows="4" cols="50">
+                Description
+                </textarea>
             <select id="common" name="common" onchange=changeDropdownValue(this.value)>
                 <option value"" disabled selected>Select</option>
                 <option value="Structural">Structural</option>
