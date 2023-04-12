@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         createAccountForm.classList.add("form_hidden");
     });
 
-    document.querySelector("#ContinueCreateAccount").addEventListener("click", e => {
+    document.querySelector("#linkContinueCreateAccount").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form_hidden");
         createAccountForm.classList.add("form_hidden");
