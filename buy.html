@@ -5,22 +5,25 @@
     <body>
       <script>
         function publishToTable() {
-            const posttitle = document.getElementById('PostTitle').value;
-            const postdescription = document.getElementById('PostDescription').value;
-            const postmincost = document.getElementById('PostMinCost').value;
-            const postcategory = document.getElementById('common').value;
-            const postsubcategory = document.getElementById('category).value;
+            const PostTitle = document.getElementById('PostTitle').value;
+            const PostDescription = document.getElementById('PostDescription').value;
+            const PostMinCost = document.getElementById('PostMinCost').value;
+            const common = document.getElementById('common').value;
+            const category = document.getElementById('category).value;
+            error.innerHTML = (!PostTitle || !PostDescription) ? 'Name & Email both values are required.' : '';
+        if (PostTitle && PostDescription) {
                 const tableElement = document.getElementById('table');
                 const trElement = document.createElement('tr');
                 const tbodyElement = document.createElement('tbody');
-                const posttitleEle = document.createElement('posttitle);
-                const postdescriptionEle = document.createElement('postdescription);
-                posttitleEle.innerHTML = posttitle;
-                postdesciptionEle.innerHTML = postdescription;
-                trElement.appendChild(posttitleEle);
-                trElement.appendChild(postdecriptionEle);
+                const PostTitleEle = document.createElement('posttitle);
+                const PostDescriptionEle = document.createElement('postdescription);
+                PostTitleEle.innerHTML = PostTitle;
+                PostDesciptionEle.innerHTML = PostDescription;
+                trElement.appendChild(PostTitleEle);
+                trElement.appendChild(PostDescriptionEle);
                 tbodyElement.appendChild(trElement);
                 tableElement.appendChild(tbodyElement);
             }
+          }
           </script>
     </body>
