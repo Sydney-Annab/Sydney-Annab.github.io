@@ -13,4 +13,17 @@ document.addEventListener("DOMContentLoaded", () => {
         loginForm.classList.remove("form_hidden");
         createAccountForm.classList.add("form_hidden");
     });
+
+    document.querySelector("#linkContinueLogin").addEventListener("click", e => {
+        e.preventDefault();
+        loginForm.classList.add("form_hidden");
+        createAccountForm.classList.add("form_hidden");
+    });
+
+    document.querySelector("#ContinueCreateAccount").addEventListener("click", e => {
+        e.preventDefault();
+        loginForm.classList.add("form_hidden");
+        createAccountForm.classList.add("form_hidden");
+    });
+
 });
