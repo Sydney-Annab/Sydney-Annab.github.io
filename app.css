@@ -2,25 +2,7 @@
     margin: 25px;
     background: #f9f9f9;
     padding: 16px;
-}
-
-.menuItems {
-   list-style: none;
-   display: flex;
-    }
-  
-.li {
-   margin: 50px;
-}
-  
-.a {
-  text-decoration: none;
-  color: #8f8f8f;
-  font-size: 24px;
-  font-weight: 400;
-  transition: all 0.5s ease-in-out;
-  position: relative;
-  text-transform: uppercase;
+    top: 0;
 }
 
 
