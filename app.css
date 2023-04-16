@@ -22,7 +22,6 @@
 }
 
 .navbar {
-    position: fixed;
     height: 50px;
     width: 25%;
     float: left;
@@ -30,7 +29,6 @@
 }
 
 .container {
-    position: fixed;
     height: 500px;
     width: 400px;
     max-width: 400px;
