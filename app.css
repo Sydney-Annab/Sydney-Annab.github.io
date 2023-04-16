@@ -22,13 +22,14 @@
 }
 
 .navbar {
-    height: 200px;
+    height: 50px;
     width: 200px;
-    background-color: hotpink;
+    background-color: rgb(255, 255, 255);
     color: #fff;
     padding: 10px;
     border: solid 3px black;
-    margin: 0
+    margin-left: 20px;
+    margin-top: 20px;
   }
 
 .container {
