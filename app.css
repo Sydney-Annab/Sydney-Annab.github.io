@@ -28,7 +28,11 @@
     color: #fff;
     padding: 10px;
     border: solid 3px black;
-  }
+}
+
+.menuItems {
+    font-size: 10px;
+}
 
 .container {
     height: 500px;
