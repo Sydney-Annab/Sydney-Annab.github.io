@@ -17,6 +17,7 @@
     border: solid 3px black;
     top: 0%;
     left: 0%;
+    justify-content: center;
 }
 
 .menuItems {
