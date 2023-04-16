@@ -19,7 +19,7 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.navbar {
+.onavbar {
     position: absolute;
     height: 50px;
     width: 200px;
@@ -35,7 +35,7 @@
     font-size: 10px;
 }
 
-.container {
+.ocontainer {
     height: 500px;
     width: 400px;
     background-color: rgb(218, 218, 218);
