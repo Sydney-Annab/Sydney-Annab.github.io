@@ -27,7 +27,8 @@
     color: #fff;
     padding: 10px;
     border: solid 3px black;
-    top: 0;
+    top: 0%;
+    left: 0%;
 }
 
 .menuItems {
@@ -44,7 +45,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -50px 0 0 -50px;
 }
 
 .table {
