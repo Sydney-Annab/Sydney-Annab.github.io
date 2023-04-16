@@ -20,7 +20,8 @@
 }
 
 .navbar {
-    position: top;
+    position: absolute;
+    top: 50px;
     float: left;
     height: 50px;
     width: 200px;
@@ -35,7 +36,7 @@
 }
 
 .container {
-    position: center;
+    position: absolute;
     height: 500px;
     width: 400px;
     background-color: rgb(218, 218, 218);
