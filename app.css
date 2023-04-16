@@ -26,7 +26,7 @@
     height: 50px;
     width: 25%;
     float: left;
-    box-shadow: 10px 10px 10px 10px var(--color-primary)
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
 }
 
 .container {
@@ -38,7 +38,6 @@
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0,0,0,0.2);
     border-radius: var(--border-radius);
-    background: var(--color-primary);
     justify-content: center;
 }
 
