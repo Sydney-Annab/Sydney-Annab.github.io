@@ -22,11 +22,14 @@
 }
 
 .navbar {
-    height: 50px;
-    width: 25%;
-    float: left;
-    box-shadow: -100px -50px 0px 4px rgba(20,20,20,0.4);
-}
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    color: #fff;
+    padding: 10px;
+    border: solid 3px black;
+    margin: 0
+  }
 
 .container {
     height: 500px;
