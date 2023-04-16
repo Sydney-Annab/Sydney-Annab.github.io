@@ -21,7 +21,7 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.navbar {
+.onavbar {
     position: fixed;
     height: 50px;
     width: 25%;
@@ -29,7 +29,7 @@
     box-shadow: -100px -50px 0px 4px rgba(20,20,20,0.4);
 }
 
-.container {
+.ocontainer {
     position: fixed;
     height: 500px;
     width: 400px;
@@ -39,8 +39,6 @@
     box-shadow: -100px -50px 0px 4px rgba(20,20,20,0.4);
     justify-content: center;
 }
-
-
 
 .table {
     width: 400px;
