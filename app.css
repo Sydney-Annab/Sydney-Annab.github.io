@@ -21,9 +21,22 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+.navbar {
+    position: fixed;
+    height: 0;
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: var(--border-radius);
+    background: var(--color-accent);
+    justify-content: center;
+}
+
 .container {
     position: fixed;
-    height: 2000px;
+    height: 4000px;
     width: 400px;
     max-width: 400px;
     margin: 1rem;
