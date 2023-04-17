@@ -47,8 +47,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.username {
+.loginusername {
     top: 40%;
+}
+
+.loginpassword {
+    top: 45%;
 }
 
 .homecontainer {
