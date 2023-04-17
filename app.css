@@ -47,6 +47,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.username {
+    top: 40%;
+}
+
 .homecontainer {
     height: 300px;
     width: 400px;
