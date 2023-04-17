@@ -69,6 +69,10 @@
     background-color: #f3f3f3;
 }
 
+::placeholder{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 .form_hidden {
     display: none;
 }
