@@ -80,7 +80,7 @@
     background-color: #f3f3f3;
 }
 
-::placeholder{
+input {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
