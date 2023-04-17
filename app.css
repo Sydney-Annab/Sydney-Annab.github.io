@@ -63,10 +63,12 @@
 
 .username {
     height: 200px;
+    position: absolute;
 }
 
 .password {
     height: 300px;
+    position: absolute;
 }
 
 .table tbody tr {
