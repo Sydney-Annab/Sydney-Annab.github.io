@@ -61,6 +61,14 @@
     right: 5%;
 }
 
+.username {
+    height: 200px;
+}
+
+.password {
+    height: 300px;
+}
+
 .table tbody tr {
     border-bottom: 1px solid #dddddd;
 }
