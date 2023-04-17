@@ -82,6 +82,7 @@
 
 input {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    justify-content: center;
 }
 
 .form_hidden {
