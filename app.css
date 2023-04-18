@@ -68,7 +68,7 @@ input[type=text], select {
     border: solid 3px black;
     position: absolute;
     top: 25%;
-    left: 35%;
+    left: 5%;
 }
 
 .table {
