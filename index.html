@@ -20,7 +20,7 @@
           <h1 class="form_title" >Login</h1>
             <input id="loginusername" type="text" class="form_input" placeholder="Username">
             <input id="loginpassword" type="text" class="form_input" placeholder="Password"> 
-            <a class="form_button" href="./" type="submit" id="linkContinueLogin">Continue</a>
+            <a class="form_button" href="./" id="linkSuccess" type="submit">Continue</a>
             <p class="form_text">
               <a class="form_link" href="./" id="linkCreateAccount">Don't have an account? Create One!</a>
             </p>
@@ -31,10 +31,17 @@
           <input id="createusername" type="text" class="form_input" placeholder="Username">
           <input id="createpassword" type="text" class="form_input" placeholder="Password">
           <input id="createconfirmpassword" type="text" class="form_input" placeholder="Verify Password">
-          <a class="form_button" href="./" type="submit" id="linkContinueCreateAccount">Continue</a>
+          <a class="form_button" href="./" type="submit" id="linkSuccess">Continue</a>
           <p class="form_text">
             <a class="form_link" href="./" id="linkLogin">Already have an account? Login!</a>
           </p>
+        </form>
+
+        <form class="form form_hidden" id="success">
+          <h1 class="form_title" >You're In!</h1>
+            <p class="form_text">
+              <a class="form_link" >Head on Over to the Post and Buy Page</a>
+            </p>
         </form>
       </div>
 
