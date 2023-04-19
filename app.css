@@ -57,7 +57,7 @@ input[type=text], select {
     border: solid 3px black;
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 30%;
 }
 
 .postcontainer {
@@ -69,7 +69,7 @@ input[type=text], select {
     border: solid 3px black;
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 30%;
 }
 
 .posttable {
