@@ -115,3 +115,8 @@ input {
     border: none;
     border-radius: var(--border-radius)
 }
+
+
+.h3 {
+    font-size: 14px;
+}
