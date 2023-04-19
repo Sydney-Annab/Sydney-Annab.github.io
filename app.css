@@ -81,8 +81,8 @@ input[type=text], select {
     border: solid 3px black;
     background-color: rgb(218, 218, 218);
     position: absolute;
-    top: 25%
-    left: 80%;
+    float: right;
+    top: 25%;
 }
 
 .table tbody tr {
