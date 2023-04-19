@@ -25,7 +25,8 @@
 .menuItems {
     font-size: 14px;
     list-style:none;
-    left: 20%;
+    left: 40%;
+    top: 5%;
 }
 
 input[type=text], select {
