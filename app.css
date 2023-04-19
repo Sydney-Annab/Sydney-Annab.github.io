@@ -2,7 +2,7 @@
     --border-radius: 4px;
 
     margin:0;
-    background: url(https://www.researchgate.net/publication/3974087/figure/fig1/AS:394680001941530@1471110453992/3D-wireframe-building-models.png);
+    background: url(https://wallpapercave.com/wp/wp9432571.jpg);
     background-size: cover;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     color: black;
@@ -73,18 +73,34 @@ input[type=text], select {
 }
 
 .posttable {
-    height:50px;
-    width: auto;
-    position: absolute;
-    left: 60%;
-    top: 25%;
-    text-align: center;
     border-collapse: collapse;
-    border-spacing: 50px 0;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-td {
-    padding: 10px 0;
+.posttable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.posttable th,
+.posttable td {
+    padding: 12px 15px;
+}
+
+.posttable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.posttable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.posttable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
 }
 
 input {
