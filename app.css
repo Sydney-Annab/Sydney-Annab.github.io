@@ -29,12 +29,11 @@
 
 .posttable {
     border-collapse: collapse;
-    margin: 25px 50px;
     font-size: 0.9em;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-top: 1000px;
-    justify-content: center;
+    left: 40%;
 }
 
 .posttable thead tr {
@@ -91,7 +90,7 @@ input[type=text], select {
     border: solid 3px black;
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 35%;
 }
 
 .postcontainer {
@@ -103,7 +102,7 @@ input[type=text], select {
     border: solid 3px black;
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 35%;
 }
 
 input {
