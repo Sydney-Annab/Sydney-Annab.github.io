@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector("#linkSuccess").addEventListener("click", e => {
         e.preventDefault();
-        loginForm.classList.remove("form_hidden");
+        successForm.classList.remove("form_hidden");
         createAccountForm.classList.add("form_hidden");
+        loginForm.classList.add("form_hidden");
     });
 
     document.querySelector("#linkContinueLogin").addEventListener("click", e => {
