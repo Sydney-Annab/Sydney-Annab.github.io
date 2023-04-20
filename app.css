@@ -33,7 +33,7 @@
     min-width: 700px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-top: 1000px;
-    justify-content: center;
+    left: 30%;
 }
 
 .posttable thead tr {
