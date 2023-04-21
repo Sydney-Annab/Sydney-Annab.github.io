@@ -30,10 +30,10 @@
 .posttable {
     border-collapse: collapse;
     font-size: 0.9em;
-    min-width: 700px;
+    min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-top: 1000px;
-    left: 30%;
+    left: 50%;
 }
 
 .posttable thead tr {
