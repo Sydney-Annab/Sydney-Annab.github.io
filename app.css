@@ -32,16 +32,15 @@
     font-size: 0.9em;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-top: 1000px;
-    left: 50%;
+    margin-top: 800px;
+    width: 100%;
 }
 
 .posttable thead tr {
     background-color: rgb(218, 218, 218);
     color: #ffffff;
     text-align: center;
-    margin-top: 99%;
-    left: 30%;
+    margin-top: 90%;
 }
 
 .posttable th,
