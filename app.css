@@ -41,6 +41,7 @@
     color: #ffffff;
     text-align: center;
     margin-top: 99%;
+    left: 30%;
 }
 
 .posttable th,
@@ -52,13 +53,6 @@
     border-bottom: 1px solid #dddddd;
 }
 
-.posttable tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.posttable tbody tr:last-of-type {
-    border-bottom: 2px solid #7a7a7a;
-}
 
 input[type=text], select {
     width: 100%;
